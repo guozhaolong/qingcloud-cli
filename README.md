@@ -9,6 +9,9 @@
 
 ## Installation
     
-    $ npm install
-    $ ./qing.js
+    $ npm install qingcloud-cli -g
+    
+## Usage
+
+    > qing [command] [options]
 
