@@ -1,13 +1,13 @@
 {
   "name": "qingcloud-cli",
   "description": "qingcloud cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "toolkit",
     "cli"
   ],
   "bin": {
-    "qing": "./qing.js"
+    "qing": "./bin/qing.js"
   },
   "dependencies": {
     "commander": "^2.9.0",
