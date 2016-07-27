@@ -1,0 +1,29 @@
+{
+  "name": "qingcloud-cli",
+  "description": "qingcloud cli",
+  "version": "1.0.0",
+  "keywords": [
+    "toolkit",
+    "cli"
+  ],
+  "bin": {
+    "qing": "./qing.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "crypto": "0.0.3",
+    "query-string": "^4.2.2",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "engine-strict": true,
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
