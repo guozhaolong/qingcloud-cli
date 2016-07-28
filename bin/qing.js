@@ -12,7 +12,7 @@ let params = {
     "access_key_id":"XGQHDMIWWTMUWFZDUIDQ",
     "signature_method":"HmacSHA256",
     "signature_version":1,
-    "time_stamp":"2016-07-27T22:58:35Z",
+    "time_stamp":new Date().toISOString(),
     "version":1,
     "zone":"gd1"
 }
@@ -26,7 +26,7 @@ function req_api(p){
         json: true
     };
     request(options, function(err, res, body) {
-        if(res.statusCode == 200 && body.ret_code == 0){
+        if(body.ret_code == 0){
             if(p.action == 'DescribeInstances')
                 for(var ins of body.instance_set){
                     console.log("虚拟机"+ins.instance_id+ "("+ins.instance_name+")\n");
